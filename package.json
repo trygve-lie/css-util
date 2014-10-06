@@ -1,0 +1,35 @@
+{
+  "name": "css-util",
+  "version": "0.1.0",
+  "description": "Collection of misc CSS manipulation functions not nativly provided by the CSS / DOM apis",
+  "main": "lib/css.util.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:trygve-lie/css-util.git"
+  },
+  "bugs": {
+    "url": "https://github.com/trygve-lie/css-util/issues"
+  },
+  "scripts": {
+    "pretest": "jshint ./lib/*.js ./test/*.js",
+    "test": "mocha ./test/*.js --reporter spec",
+    "doc": "./node_modules/.bin/jsdoc ./lib/*.js"
+  },
+  "keywords": [
+    "css",
+    "styles"
+  ],
+  "author": "Trygve Lie <github@trygve-lie.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jshint": "latest",
+    "mocha": "latest",
+    "jsdom": "latest",
+    "chai": "latest",
+    "jsdoc": "latest"
+  },
+  "dependencies": {
+    "dom-util": "0.1.x",
+    "core-util-is": "1.0.x"
+  }
+}
