@@ -40,7 +40,7 @@ HTML:
 
 JS:
 ```js
-var css = require('css-utils');
+var css = require('css-util');
 
 var element = document.getElementById('foo');
 var hasClass = css.contains(element, 'bar');
@@ -61,7 +61,7 @@ HTML before:
 
 JS:
 ```js
-var css = require('css-utils');
+var css = require('css-util');
 
 var element = document.getElementById('foo');
 css.appendClass(element, 'xyz');
@@ -84,7 +84,7 @@ HTML before:
 
 JS:
 ```js
-var css = require('css-utils');
+var css = require('css-util');
 
 var element = document.getElementById('foo');
 css.replaceClass(element, 'bar', 'aaa');
@@ -106,7 +106,7 @@ HTML before:
 
 JS:
 ```js
-var css = require('css-utils');
+var css = require('css-util');
 
 var element = document.getElementById('foo');
 css.replaceClass(element, ['oof','bar','rab'], 'aaa');
@@ -130,7 +130,7 @@ HTML before:
 
 JS:
 ```js
-var css = require('css-utils');
+var css = require('css-util');
 
 var element = document.getElementById('foo');
 css.removeClass(element, 'bar');
