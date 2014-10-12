@@ -9,7 +9,7 @@ functions which are not nativly provided by the DOM or CSSOM api's.
 
 ```bash
 $ npm install css-util
-````
+```
 
 
 
@@ -17,7 +17,7 @@ $ npm install css-util
 
 ```bash
 $ npm test
-````
+```
 
 Tests are written in [mocha](http://visionmedia.github.io/mocha/) and run
 in node.js with the help of [jsdom](https://github.com/tmpvar/jsdom).
