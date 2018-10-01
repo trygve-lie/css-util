@@ -1,5 +1,7 @@
 # css-util
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/trygve-lie/css-util.svg)](https://greenkeeper.io/)
+
 Collection of misc helper functions for CSS. These are helper
 functions which are not nativly provided by the DOM or CSSOM api's.
 
